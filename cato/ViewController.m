@@ -61,4 +61,17 @@
 	}
 }
 
+
+
+- (IBAction)aboutClicked:(id)sender
+{
+	UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"iBalls" message:@"Bouncing balls, simple.\nToggle sound in the settings app" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+	
+	[alert show];
+}
+
+
+
+
+
 @end

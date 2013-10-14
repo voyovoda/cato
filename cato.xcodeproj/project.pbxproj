@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3B88A814D3407E00387604 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3B88A714D3407E00387604 /* Util.m */; };
+		7E3B88AC14D3478600387604 /* Boing.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 7E3B88AB14D3478600387604 /* Boing.aiff */; };
+		7E3B88AE14D3482D00387604 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3B88AD14D3482C00387604 /* AVFoundation.framework */; };
 		7E4B158514D0826C00B7EB69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B158414D0826C00B7EB69 /* UIKit.framework */; };
 		7E4B158714D0826C00B7EB69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B158614D0826C00B7EB69 /* Foundation.framework */; };
 		7E4B158914D0826C00B7EB69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B158814D0826C00B7EB69 /* CoreGraphics.framework */; };
@@ -16,23 +19,55 @@
 		7E4B159814D0826C00B7EB69 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B159614D0826C00B7EB69 /* MainStoryboard_iPhone.storyboard */; };
 		7E4B159B14D0826C00B7EB69 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B159914D0826C00B7EB69 /* MainStoryboard_iPad.storyboard */; };
 		7E4B159E14D0826C00B7EB69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B159D14D0826C00B7EB69 /* ViewController.m */; };
+		7E4B15BB14D0987900B7EB69 /* ball_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15B414D0987900B7EB69 /* ball_blue.png */; };
+		7E4B15BC14D0987900B7EB69 /* ball_cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15B514D0987900B7EB69 /* ball_cyan.png */; };
+		7E4B15BD14D0987900B7EB69 /* ball_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15B614D0987900B7EB69 /* ball_green.png */; };
+		7E4B15BE14D0987900B7EB69 /* ball_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15B714D0987900B7EB69 /* ball_orange.png */; };
+		7E4B15BF14D0987900B7EB69 /* ball_purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15B814D0987900B7EB69 /* ball_purple.png */; };
+		7E4B15C014D0987900B7EB69 /* ball_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15B914D0987900B7EB69 /* ball_red.png */; };
+		7E4B15C114D0987900B7EB69 /* ball_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15BA14D0987900B7EB69 /* ball_yellow.png */; };
+		7E4B15C314D0989600B7EB69 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15C214D0989600B7EB69 /* Default.png */; };
+		7E4B15C614D09AF700B7EB69 /* BallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B15C514D09AF700B7EB69 /* BallViewController.m */; };
+		7E4B15C914D09B3900B7EB69 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B15C814D09B3900B7EB69 /* BallView.m */; };
+		7E4B15CB14D0A46900B7EB69 /* eye_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B15CA14D0A46900B7EB69 /* eye_1.png */; };
+		7ED3AFE614D3623B0094A6FE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED3AFE514D3623B0094A6FE /* AudioToolbox.framework */; };
+		7EF5DB1D180C5C85007CA4EB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7EF5DB1C180C5C85007CA4EB /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3B88A614D3407E00387604 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		7E3B88A714D3407E00387604 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		7E3B88AB14D3478600387604 /* Boing.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Boing.aiff; sourceTree = "<group>"; };
+		7E3B88AD14D3482C00387604 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7E4B158014D0826C00B7EB69 /* cato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4B158414D0826C00B7EB69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E4B158614D0826C00B7EB69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E4B158814D0826C00B7EB69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7E4B158C14D0826C00B7EB69 /* cato-Info.plist */ = {isa = PBXFileReference; path = "cato-Info.plist"; sourceTree = "<group>"; };
+		7E4B158C14D0826C00B7EB69 /* cato-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cato-Info.plist"; sourceTree = "<group>"; };
 		7E4B158E14D0826C00B7EB69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E4B159014D0826C00B7EB69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E4B159214D0826C00B7EB69 /* cato-Prefix.pch */ = {isa = PBXFileReference; path = "cato-Prefix.pch"; sourceTree = "<group>"; };
-		7E4B159314D0826C00B7EB69 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E4B159214D0826C00B7EB69 /* cato-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cato-Prefix.pch"; sourceTree = "<group>"; };
+		7E4B159314D0826C00B7EB69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E4B159414D0826C00B7EB69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7E4B159714D0826C00B7EB69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7E4B159A14D0826C00B7EB69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		7E4B159C14D0826C00B7EB69 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7E4B159C14D0826C00B7EB69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7E4B159D14D0826C00B7EB69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E4B15B414D0987900B7EB69 /* ball_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_blue.png; sourceTree = "<group>"; };
+		7E4B15B514D0987900B7EB69 /* ball_cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_cyan.png; sourceTree = "<group>"; };
+		7E4B15B614D0987900B7EB69 /* ball_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_green.png; sourceTree = "<group>"; };
+		7E4B15B714D0987900B7EB69 /* ball_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_orange.png; sourceTree = "<group>"; };
+		7E4B15B814D0987900B7EB69 /* ball_purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_purple.png; sourceTree = "<group>"; };
+		7E4B15B914D0987900B7EB69 /* ball_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_red.png; sourceTree = "<group>"; };
+		7E4B15BA14D0987900B7EB69 /* ball_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_yellow.png; sourceTree = "<group>"; };
+		7E4B15C214D0989600B7EB69 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7E4B15C414D09AF700B7EB69 /* BallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallViewController.h; sourceTree = "<group>"; };
+		7E4B15C514D09AF700B7EB69 /* BallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallViewController.m; sourceTree = "<group>"; };
+		7E4B15C714D09B3900B7EB69 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		7E4B15C814D09B3900B7EB69 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		7E4B15CA14D0A46900B7EB69 /* eye_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_1.png; sourceTree = "<group>"; };
+		7ED3AFE514D3623B0094A6FE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7EF5DB1C180C5C85007CA4EB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED3AFE614D3623B0094A6FE /* AudioToolbox.framework in Frameworks */,
+				7E3B88AE14D3482D00387604 /* AVFoundation.framework in Frameworks */,
 				7E4B158514D0826C00B7EB69 /* UIKit.framework in Frameworks */,
 				7E4B158714D0826C00B7EB69 /* Foundation.framework in Frameworks */,
 				7E4B158914D0826C00B7EB69 /* CoreGraphics.framework in Frameworks */,
@@ -49,9 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E3B88AA14D3477700387604 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B88AB14D3478600387604 /* Boing.aiff */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		7E4B157514D0826B00B7EB69 = {
 			isa = PBXGroup;
 			children = (
+				7EF5DB1C180C5C85007CA4EB /* Settings.bundle */,
 				7E4B158A14D0826C00B7EB69 /* cato */,
 				7E4B158314D0826C00B7EB69 /* Frameworks */,
 				7E4B158114D0826C00B7EB69 /* Products */,
@@ -69,6 +115,8 @@
 		7E4B158314D0826C00B7EB69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7ED3AFE514D3623B0094A6FE /* AudioToolbox.framework */,
+				7E3B88AD14D3482C00387604 /* AVFoundation.framework */,
 				7E4B158414D0826C00B7EB69 /* UIKit.framework */,
 				7E4B158614D0826C00B7EB69 /* Foundation.framework */,
 				7E4B158814D0826C00B7EB69 /* CoreGraphics.framework */,
@@ -79,6 +127,7 @@
 		7E4B158A14D0826C00B7EB69 /* cato */ = {
 			isa = PBXGroup;
 			children = (
+				7E4B15A414D0917300B7EB69 /* Resources */,
 				7E4B159314D0826C00B7EB69 /* AppDelegate.h */,
 				7E4B159414D0826C00B7EB69 /* AppDelegate.m */,
 				7E4B159614D0826C00B7EB69 /* MainStoryboard_iPhone.storyboard */,
@@ -86,6 +135,12 @@
 				7E4B159C14D0826C00B7EB69 /* ViewController.h */,
 				7E4B159D14D0826C00B7EB69 /* ViewController.m */,
 				7E4B158B14D0826C00B7EB69 /* Supporting Files */,
+				7E4B15C414D09AF700B7EB69 /* BallViewController.h */,
+				7E4B15C514D09AF700B7EB69 /* BallViewController.m */,
+				7E4B15C714D09B3900B7EB69 /* BallView.h */,
+				7E4B15C814D09B3900B7EB69 /* BallView.m */,
+				7E3B88A614D3407E00387604 /* Util.h */,
+				7E3B88A714D3407E00387604 /* Util.m */,
 			);
 			path = cato;
 			sourceTree = "<group>";
@@ -99,6 +154,31 @@
 				7E4B159214D0826C00B7EB69 /* cato-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E4B15A414D0917300B7EB69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E3B88AA14D3477700387604 /* Sounds */,
+				7E4B15A514D0917D00B7EB69 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7E4B15A514D0917D00B7EB69 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7E4B15C214D0989600B7EB69 /* Default.png */,
+				7E4B15CA14D0A46900B7EB69 /* eye_1.png */,
+				7E4B15B414D0987900B7EB69 /* ball_blue.png */,
+				7E4B15B514D0987900B7EB69 /* ball_cyan.png */,
+				7E4B15B614D0987900B7EB69 /* ball_green.png */,
+				7E4B15B714D0987900B7EB69 /* ball_orange.png */,
+				7E4B15B814D0987900B7EB69 /* ball_purple.png */,
+				7E4B15B914D0987900B7EB69 /* ball_red.png */,
+				7E4B15BA14D0987900B7EB69 /* ball_yellow.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +234,17 @@
 				7E4B158F14D0826C00B7EB69 /* InfoPlist.strings in Resources */,
 				7E4B159814D0826C00B7EB69 /* MainStoryboard_iPhone.storyboard in Resources */,
 				7E4B159B14D0826C00B7EB69 /* MainStoryboard_iPad.storyboard in Resources */,
+				7E4B15BB14D0987900B7EB69 /* ball_blue.png in Resources */,
+				7E4B15BC14D0987900B7EB69 /* ball_cyan.png in Resources */,
+				7E4B15BD14D0987900B7EB69 /* ball_green.png in Resources */,
+				7EF5DB1D180C5C85007CA4EB /* Settings.bundle in Resources */,
+				7E4B15BE14D0987900B7EB69 /* ball_orange.png in Resources */,
+				7E4B15BF14D0987900B7EB69 /* ball_purple.png in Resources */,
+				7E4B15C014D0987900B7EB69 /* ball_red.png in Resources */,
+				7E4B15C114D0987900B7EB69 /* ball_yellow.png in Resources */,
+				7E4B15C314D0989600B7EB69 /* Default.png in Resources */,
+				7E4B15CB14D0A46900B7EB69 /* eye_1.png in Resources */,
+				7E3B88AC14D3478600387604 /* Boing.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +258,9 @@
 				7E4B159114D0826C00B7EB69 /* main.m in Sources */,
 				7E4B159514D0826C00B7EB69 /* AppDelegate.m in Sources */,
 				7E4B159E14D0826C00B7EB69 /* ViewController.m in Sources */,
+				7E4B15C614D09AF700B7EB69 /* BallViewController.m in Sources */,
+				7E4B15C914D09B3900B7EB69 /* BallView.m in Sources */,
+				7E3B88A814D3407E00387604 /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +382,7 @@
 				7E4B15A314D0826C00B7EB69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
